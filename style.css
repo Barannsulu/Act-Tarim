@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: black !important;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.bolum2 {
+  margin-top: 30px;
+  background-color: rgba(151, 159, 228, 0.171);
+}
+
+.bolum2 .resim {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+.bolum2 .baslik p {
+  font-size: 14px;
+  color: #fc983c;
+  font-weight: 600;
+}
+
+.bolum2 .baslik h3 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.bolum2 article {
+  padding: 40px;
+}
+
+.bolum2 article p.icerik {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #666;
+}
+
+.bolum2 article .btn {
+  background-color: #fc983c;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .bolum2 .resim {
+    height: 600px;
+  }
+}
+
+.bolum4 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative;
+  background-repeat: no-repeat !important;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+}
+
+footer i {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+}
